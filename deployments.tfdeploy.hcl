@@ -11,7 +11,7 @@ deployment "production" {
     public_ssh_key_url         = "https://pastebin.com/raw/GdiSq4jN"
     identity_token_file        = identity_token.gcp.jwt_filename
     gcp_audience               = identity_token.gcp.audience
-    #gcp_service_account_email  = "<Set to your GCP service account email>"
+    gcp_service_account_email  = "tfc-service-account@stacks-testing-430918.iam.gserviceaccount.com"
     gcp_project_id             = "stacks-testing-430918"
     gcp_region                 = "us-central1"
     gcp_zone                   = "us-central1-a"
