@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: MPL-2.0
 
 identity_token "gcp" {
-  # Must be the fully qualified path to the identity provider: //iam.googleapis.com/projects/<PROJECT NUMBER>/locations/global/workloadIdentityPools/<POOL ID>/providers/<PROVIDER ID>
   audience = ["gcp.workload.identity"]
 }
 
