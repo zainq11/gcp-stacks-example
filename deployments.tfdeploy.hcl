@@ -9,7 +9,7 @@ identity_token "gcp" {
 deployment "production" {
   inputs = {
     public_ssh_key_url         = "https://pastebin.com/raw/GdiSq4jN"
-    # identity_token_file        = identity_token.gcp.jwt_filename
+    identity_token_file        = identity_token.gcp.jwt_filename
     gcp_audience               = identity_token.gcp.audience
     #gcp_service_account_email  = "<Set to your GCP service account email>"
     gcp_project_id             = "stacks-testing-430918"
