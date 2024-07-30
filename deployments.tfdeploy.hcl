@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 identity_token "gcp" {
-  audience = ["gcp.workload.identity"]
+  audience = ["//iam.googleapis.com/projects/275966277234/locations/global/workloadIdentityPools/my-tfc-pool/providers/my-tfc-provider-id"]
 }
 
 deployment "production" {
